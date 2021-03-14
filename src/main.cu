@@ -1,9 +1,9 @@
 #include <iostream>
-#include "common/book.h"
+#include "../common/book.h"
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
-#include "common/cpu_bitmap.h"
-#include "common/cpu_anim.h"
+#include "../common/cpu_bitmap.h"
+#include "../common/cpu_anim.h"
 
 using namespace std;
 

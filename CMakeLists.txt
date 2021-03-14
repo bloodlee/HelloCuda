@@ -5,7 +5,7 @@ project(HelloCuda CUDA)
 set(CMAKE_CUDA_STANDARD 14)
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
-add_executable(HelloCuda main.cu)
+add_executable(HelloCuda src/main.cu)
 
 set_target_properties(
         HelloCuda
